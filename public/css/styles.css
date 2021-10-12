@@ -1,0 +1,289 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #ebebeb;
+}
+
+header {
+    background-color: #EAC926;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.logo-search {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    flex-grow: 0.5;
+}
+
+.logo {
+    color: #03264C;
+    width: 36%;
+    flex-grow: 0.5;
+}
+
+.buscador {
+    margin: 5%;
+    flex-grow: 0.5;
+    background-color: #EAC926;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: flex-start;
+    left: 6px;
+}
+
+.lupa {
+    background-color: white;
+    padding: 2px;
+    position: absolute;
+    left: 138px;
+}
+
+.hand {
+    text-align: center;
+    margin: 10px;
+}
+
+.burger-menu {
+    color: white;
+    background-color: #1259c3;
+    width: 40px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.banner {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+    
+nav i {
+    padding-left: 5px;
+}
+
+nav {
+    display: none;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+ul {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    width: 90%;
+    text-align: left;
+    margin: auto;
+}
+
+h2 {
+    font-size: 24px;
+    color: #666;
+    margin: 20px;
+}
+
+.precio {
+    font-size: 18px;
+    flex-grow: 30;
+}
+
+.descripciones {
+    font-size: 16px;
+    color: #666;
+    display: none;
+}
+
+.descuento {
+    font-size: 16px;
+    color: #39b54a;
+    flex-grow: 70;
+}
+
+.preciodto {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+h4 {
+    margin: 5px;
+}
+
+.art-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+article {
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 0px #ffff;
+    transition: box-shadow 1s;
+}
+
+article:hover {
+    box-shadow: 0px 0px 10px rgb(100 100 100);
+}
+
+.box-contenedor:hover h3 {
+    display: initial;
+}
+
+.box-contenedor{
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+}
+
+.box-contenedor i {
+    color: #39b54a;
+}
+
+.camion {
+    border-radius: 50%;
+    border: solid 1px rgb(60, 185, 60);
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    transform: rotate(0deg);
+    transition: transform 0.5s; 
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.camion:hover {
+    transform: rotate(-90deg); 
+}
+
+footer section {
+    text-align: center;
+    padding: 10px;
+}   
+
+footer {
+    background-color: white;
+    margin: auto;
+}
+
+.icono {
+    padding-bottom: 10px;
+    color: blue;
+}
+
+h5 {
+    padding: 20px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+@media (min-width:361px) {
+    article {
+        box-shadow: 0px 0px 10px rgb(100 100 100);
+    }
+}
+
+@media (min-width:426px) {
+    .burger-menu {
+        display: none;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width:768px) {
+    article {
+       max-width: calc(50% - 20px);
+    }
+    .flex-header {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width:1024px) {
+    article {
+       max-width: calc(25% - 20px);
+    }
+    .pie {
+        display: flex;
+    }
+}
+
+.formulario {
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    width: 90%;
+}
+
+.login-button:hover {
+    background-color: #0022AA;
+}
+
+.login-button {
+    background-color: rgb(60, 185, 60);
+}
+
+.create-form {
+    padding: 20px 15px;
+    width: 90%;
+}
+
+.control-formulario {
+    margin-bottom: 15px;
+}
+
+.control-formulario label {
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+
+.control {
+    width: 100%;
+    padding: 8px;
+}
+
+.boton-formulario {
+    background-color: #39b54a;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
