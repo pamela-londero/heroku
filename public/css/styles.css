@@ -244,11 +244,14 @@ h5 {
     }
 }
 
+/*formulario login*/
 .formulario {
-    margin: 20px;
     background-color: white;
     padding: 20px;
-    width: 90%;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgb(100 100 100);
 }
 
 .nombre {
@@ -259,39 +262,47 @@ h5 {
     padding: 10px;
 }
 
+label {
+    padding: 10px;
+}
+
+.pass label {
+    padding: 30px;
+}
+
 .login-button:hover {
     background-color: #0022AA;
 }
 
 .login-button {
-    background-color: rgb(60, 185, 60);
+    background-color: #EAC926;
+    padding: 5px;
+    margin: 15px 50px;
 }
 
-.create-form {
-    padding: 20px 15px;
-    width: 90%;
-}
-
-.control-formulario {
-    margin-bottom: 15px;
-}
-
-.control-formulario label {
-    margin-bottom: 5px;
-    font-style: italic;
+/*formulario register*/
+.form-registro {
+    padding: 10px;
+    margin: 10px;
     display: block;
+    box-shadow: 0px 0px 10px rgb(100 100 100);
+    background-color: white;
 }
 
-.control {
-    width: 100%;
-    padding: 8px;
+.niveles {
+    padding: 10px;
 }
 
-.boton-formulario {
-    background-color: #39b54a;
-    border: none;
-    font-size: 20px;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
+.niveles button {
+    padding: 10px;
+    background-color: #eac926;
+    margin: 0px 15px;
+}
+
+.niveles button:hover {
+    background-color: #0022AA;
+}
+
+#avatar {
+    font-size: 10px;
 }
