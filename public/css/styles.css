@@ -44,8 +44,23 @@ header {
 .lupa {
     background-color: white;
     padding: 2px;
+}
+
+.header-form {
+    width: 100%;
+    position: relative;
+}
+
+.header-form input {
+    padding: 5px;
+    width: 100%;
+    display: inline-block;
+}
+
+.header-form a {
     position: absolute;
-    left: 138px;
+    right: 3px;
+    top: 5px;
 }
 
 .hand {
@@ -250,6 +265,7 @@ h5 {
     background-color: white;
     padding: 20px;
     width: 70%;
+    text-align: center;
     margin: auto;
     margin-bottom: 40px;
     margin-top: 20px;
@@ -289,6 +305,7 @@ label {
     display: block;
     box-shadow: 0px 0px 10px rgb(100 100 100);
     background-color: white;
+    text-align: center;
 }
 
 .niveles {
